@@ -28,21 +28,33 @@
                                 <state key="normal" title="红色">
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="redClick" destination="BYZ-38-t0r" eventType="touchUpInside" id="xLC-Ue-OdD"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dcJ-aj-1mC">
                                 <rect key="frame" x="317" y="121" width="30" height="30"/>
                                 <state key="normal" title="蓝色"/>
+                                <connections>
+                                    <action selector="blueClick" destination="BYZ-38-t0r" eventType="touchUpInside" id="krN-5b-4NG"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cLW-OO-CSf">
                                 <rect key="frame" x="172" y="121" width="30" height="30"/>
                                 <state key="normal" title="黄色">
                                     <color key="titleColor" red="1" green="0.78848127189223971" blue="0.042729775600052089" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="yellowClick" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xok-1N-gxg"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="label" destination="XLA-FT-Vcx" id="JCO-px-YEA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
