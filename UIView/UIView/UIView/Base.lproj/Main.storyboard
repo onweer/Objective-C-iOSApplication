@@ -23,10 +23,6 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v4H-yM-MsI">
-                                <rect key="frame" x="149" y="327" width="115" height="30"/>
-                                <state key="normal" title="添加一个Stepper"/>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AZO-eV-rB0">
                                 <rect key="frame" x="114" y="189" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -36,6 +32,16 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kps-Hy-tnC">
                                 <rect key="frame" x="149" y="370" width="113" height="30"/>
                                 <state key="normal" title="删除上面的Label"/>
+                                <connections>
+                                    <action selector="removeLabel" destination="BYZ-38-t0r" eventType="touchUpInside" id="aI2-rH-n48"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v4H-yM-MsI">
+                                <rect key="frame" x="149" y="323" width="115" height="30"/>
+                                <state key="normal" title="添加一个Stepper"/>
+                                <connections>
+                                    <action selector="addStepper" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Go-j1-19q"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

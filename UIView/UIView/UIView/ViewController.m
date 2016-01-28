@@ -14,14 +14,14 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+- (IBAction)addStepper {
+    UIStepper* stepper = [[UIStepper alloc] init];
+    [self.view addSubview:stepper];
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)removeLabel{
+   // self.view removeObserver:<#(nonnull NSObject *)#> forKeyPath:<#(nonnull NSString *)#>
 }
 
 @end
