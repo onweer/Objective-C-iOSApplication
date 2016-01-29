@@ -34,7 +34,8 @@
 }
 
 - (IBAction)removeLabel{
-   // self.view removeObserver:<#(nonnull NSObject *)#> forKeyPath:<#(nonnull NSString *)#>
+   // 删除Label
+
 }
 
 @end
